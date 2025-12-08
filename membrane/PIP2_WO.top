@@ -1,8 +1,11 @@
-#include "martini.itp"
+#inlcude "martini_v2.2.itp"
+#include "martini_v2.0_CHOL_02.itp"
+#include "martini_v2.0_DIPC_01.itp"
+#include "martini_v2.0_DPPC_01.itp"
 
 [ system ]
 ; name
-INSANE! Membrane UpperLeaflet>DPPC:M2.DIPC:CHOL=90.0:78.0:56.0 LowerLeaflet>DPPC:M2.DIPC:CHOL=84.0:73.0:56.0
+INSANE! Membrane UpperLeaflet>DPPC:M2.DIPC:CHOL=90.0:78.0:56.0 LowerLeaflet>DPPC:M2.DIPC:CHOL=90.0:78.0:56.0
 
 
 [ molecules ]
@@ -10,7 +13,7 @@ INSANE! Membrane UpperLeaflet>DPPC:M2.DIPC:CHOL=90.0:78.0:56.0 LowerLeaflet>DPPC
 DPPC            90
 DIPC            78
 CHOL            56
-DPPC            88
-DIPC            77
-CHOL            59
-W             6775
+DPPC            90
+DIPC            78
+CHOL            56
+W             6778

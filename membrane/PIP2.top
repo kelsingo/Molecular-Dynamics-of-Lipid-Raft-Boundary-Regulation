@@ -1,4 +1,9 @@
-#include "martini.itp"
+#include "martini_v2.2.itp"
+#include "martini_v2.0_CHOL_02.itp"
+#include "martini_v2.0_DIPC_01.itp"
+#include "martini_v2.0_DPPC_01.itp"
+#include "martini_v2.0_POP2_01.itp"
+
 
 [ system ]
 ; name
@@ -14,4 +19,4 @@ DPPC            84
 DIPC            73
 CHOL            56
 PIPI            11
-W             6912
+W             6904
