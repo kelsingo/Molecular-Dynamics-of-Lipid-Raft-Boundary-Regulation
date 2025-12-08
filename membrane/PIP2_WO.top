@@ -1,4 +1,4 @@
-#inlcude "martini_v2.2.itp"
+#include "martini_v2.2.itp"
 #include "martini_v2.0_CHOL_02.itp"
 #include "martini_v2.0_DIPC_01.itp"
 #include "martini_v2.0_DPPC_01.itp"
