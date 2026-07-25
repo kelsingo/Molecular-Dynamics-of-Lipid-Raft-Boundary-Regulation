@@ -73,7 +73,7 @@ Quantitative analysis
 | Ensemble | NPT |
 | Temperature | 295 K |
 | Time Step | 0.02 ps |
-| Simulation Length | 10 ns |
+| Simulation Length | 2 ns |
 
 ---
 
@@ -168,12 +168,51 @@ Potential improvements include:
 ## Repository Structure
 
 ```text
+## Repository Structure
+
+```text
 .
-├── mdp/                # GROMACS simulation parameter files
-├── topology/           # Membrane topology files
-├── analysis/           # Analysis scripts
-├── figures/            # Generated figures
-├── results/            # Simulation outputs
+├── PIP2/                             # Main simulation system
+│   ├── frame/                        # Membrane snapshots during simulation
+│   │   ├── frame1.gro
+│   │   ├── frame2.gro
+│   │   ├── frame100.gro
+│   │   └── final.gro
+│   │
+│   ├── trajectory/                   # Simulation trajectory files
+│   ├── PIP2.gro                      # Initial membrane structure
+│   ├── PIP2.top                      # System topology
+│   ├── PIP2_WO.gro                   # Membrane without PIP₂
+│   ├── PIP2_WO.top
+│   ├── martini_v2.2.itp              # MARTINI force field
+│   ├── martini_v2.0_*.itp            # Lipid topology files
+│   ├── minimize.tpr                  # Energy minimization input
+│   ├── minimized_PIP2.gro            # Minimized membrane
+│   ├── npt.mdp                       # NPT equilibration parameters
+│   └── msd_*.xvg                     # Mean squared displacement results
+│
+├── PIP2_2ns/                         # 2 ns equilibration outputs
+│   ├── PIP2_100.xtc                  # Simulation trajectory
+│   ├── PIP2_100.trr                  # Full precision trajectory
+│   ├── run.tpr                       # Simulation input
+│   ├── index.ndx                     # Atom index groups
+│   ├── frame*.gro                    # Representative membrane snapshots
+│   ├── final.gro                     # Final equilibrated structure
+│   ├── rdf_*.xvg                     # Radial distribution functions
+│   └── msd_*.xvg                     # Mean squared displacement analysis
+│
+├── PIP2_WO/                          # Scripts for simulations without PIP₂
+│   └── PIP2_WO.sh
+│
+├── insane scripts/                   # Membrane construction utilities
+│   ├── create_membrane.sh
+│   ├── martinize.py
+│   └── clean_include_topology.py
+│
+├── [IS315]_Final_Project.ipynb       # Analysis notebook including figures 
+├── membrane.gro                      # Initial membrane structure
+├── insane_script.sh                  # Membrane generation script
+├── LICENSE
 └── README.md
 ```
 
