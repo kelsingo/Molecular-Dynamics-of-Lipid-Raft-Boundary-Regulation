@@ -6,29 +6,9 @@ This project investigates the localization of **phosphatidylinositol 4,5-bisphos
 
 Cell membranes comprise several microdomains that play essential roles in signaling and molecular interactions. Lipid rafts, among the microdomains of lipid bilayers, provide ordered environments, less fluid structure that influence the recruitment of proteins and other cellular activities. Looking into the lipid raft structure, PIP2 lipid (phosphatidylinositol 4,5-bisphosphate) has been shown to play an important position in transmembrane signaling. However, both PIP2’s potential localization to lipid rafts and the degree to which its signaling is raft-mediated remain unresolved.
 
-Using a simplified asymmetric lipid bilayer model, this project analyzes interactions between PIP₂ and surrounding membrane lipids through quantitative molecular dynamics analyses, including **Potential Energy (PE)**, **Radial Distribution Functions (RDF)**, and **Mean Squared Displacement (MSD)**.
+Using CG-MD, this project simulate a mixed lipid bilayer and examine the structural preference of PIP2 within microdomains through quantitative molecular dynamics analyses, including **Potential Energy (PE)**, **Radial Distribution Functions (RDF)**, and **Mean Squared Displacement (MSD)**. Results revealed that PIP2 prefers the lipid raft domains containing DPPC (dipalmitoylphosphatidylcholine) and CHOL (cholesterol). 
 
 > **Course Project:** Introduction to Molecular Simulations
-
----
-
-## Biological Motivation
-
-Cell membranes are heterogeneous structures composed of saturated lipids, unsaturated lipids, and cholesterol. These lipids laterally organize into two major membrane environments:
-
-- **Liquid-ordered (Lo) domains (lipid rafts):** enriched in saturated phospholipids (DPPC) and cholesterol
-- **Liquid-disordered (Ld) domains:** enriched in unsaturated phospholipids (DIPC)
-
-PIP₂ is an essential signalling lipid involved in:
-
-- Cell signalling
-- Protein recruitment
-- Actin cytoskeleton regulation
-- Membrane dynamics
-
-Because lipid rafts are only **2–20 nm** in size, direct experimental observation is challenging. Coarse-grained molecular dynamics enables efficient simulation of membrane organization while preserving essential biophysical properties.
-
----
 
 ## Project Objectives
 
