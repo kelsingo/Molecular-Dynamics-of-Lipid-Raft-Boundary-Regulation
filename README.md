@@ -24,20 +24,20 @@ Using CG-MD, this project simulate a mixed lipid bilayer and examine the structu
 
 ### Outer Leaflet
 
-| Lipid | Count |
-|-------|------:|
-| DIPC | 78 |
-| DPPC | 90 |
-| CHOL | 56 |
+| Lipid | Count | Percentage |
+|-------|------|------:|
+| DIPC | 78 | 35% |
+| DPPC | 90 | 40% |
+| CHOL | 56 | 25% |
 
 ### Inner Leaflet
 
-| Lipid | Count |
-|-------|------:|
-| DIPC | 73 |
-| DPPC | 84 |
-| CHOL | 56 |
-| PIP₂ | 11 |
+| Lipid | Count | Percentage |
+|-------|------|------:|
+| DIPC | 73 | 32.5% | 
+| DPPC | 84 | 37.5% |
+| CHOL | 56 | 25% | 
+| PIP₂ | 11 | 5% |
 
 Simulation box dimensions:
 
@@ -69,7 +69,6 @@ Quantitative analysis
 
 | Parameter | Value |
 |-----------|-------|
-| Software | GROMACS |
 | Force Field | MARTINI Coarse-Grained |
 | Ensemble | NPT |
 | Temperature | 295 K |
