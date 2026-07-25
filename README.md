@@ -8,7 +8,7 @@ Lipid rafts are cholesterol- and saturated lipid-rich membrane microdomains that
 
 Using a simplified asymmetric lipid bilayer model, this project analyzes interactions between PIP₂ and surrounding membrane lipids through quantitative molecular dynamics analyses, including **Potential Energy (PE)**, **Radial Distribution Functions (RDF)**, and **Mean Squared Displacement (MSD)**.
 
-> **Course Project:** Introduction to Molecular Simulation
+> **Course Project:** Introduction to Molecular Simulations
 
 ---
 
