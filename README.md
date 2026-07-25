@@ -4,7 +4,7 @@
 
 This project investigates the localization of **phosphatidylinositol 4,5-bisphosphate (PIP₂)** within raft-forming lipid membranes using **coarse-grained molecular dynamics (CG-MD)** simulations performed in **GROMACS** with the **MARTINI force field**.
 
-Lipid rafts are cholesterol- and saturated lipid-rich membrane microdomains that regulate numerous cellular processes, including signal transduction, membrane trafficking, and protein organization. Despite the biological importance of PIP₂, its localization within these membrane domains remains an active area of research.
+Cell membranes comprise several microdomains that play essential roles in signaling and molecular interactions. Lipid rafts, among the microdomains of lipid bilayers, provide ordered environments, less fluid structure that influence the recruitment of proteins and other cellular activities. Looking into the lipid raft structure, PIP2 lipid (phosphatidylinositol 4,5-bisphosphate) has been shown to play an important position in transmembrane signaling. However, both PIP2’s potential localization to lipid rafts and the degree to which its signaling is raft-mediated remain unresolved.
 
 Using a simplified asymmetric lipid bilayer model, this project analyzes interactions between PIP₂ and surrounding membrane lipids through quantitative molecular dynamics analyses, including **Potential Energy (PE)**, **Radial Distribution Functions (RDF)**, and **Mean Squared Displacement (MSD)**.
 
