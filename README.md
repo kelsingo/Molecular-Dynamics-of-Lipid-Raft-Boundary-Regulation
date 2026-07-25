@@ -1,4 +1,6 @@
-# Final Project for IS315 - Introduction to Modecular Simulation 
+# Molecular Simulations of Lipid Microdomains for the Structural Preference of PIP2 Lipid
+_This is Final Project for IS315 - Introduction to Modecular Simulation_
+
 Coarse-grained molecular dynamics (CG-MD) using GROMACS to study the local distribution of PIP2 lipids within cell membranes.
 
 ## Abstract
