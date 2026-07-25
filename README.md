@@ -182,4 +182,4 @@ Potential improvements include:
 
 ## References
 
-This project was developed based on published studies investigating lipid raft formation and PIP₂ localization using coarse-grained molecular dynamics simulations. A complete reference list is available in the accompanying project report.
+This project follows the method provided by: https://doi.org/10.1021/acs.jpcb.9b11095 
