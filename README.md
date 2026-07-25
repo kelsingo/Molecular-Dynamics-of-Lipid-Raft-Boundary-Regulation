@@ -138,33 +138,6 @@ Mean squared displacement analysis indicates:
 The higher cholesterol mobility agrees with previous molecular dynamics studies and supports the validity of the simulation.
 
 ---
-
-## Key Skills Demonstrated
-
-- Molecular Dynamics Simulation
-- Coarse-Grained Modeling
-- GROMACS
-- MARTINI Force Field
-- Computational Biophysics
-- Membrane Biophysics
-- Scientific Data Analysis
-- Quantitative Analysis of Simulation Trajectories
-- Scientific Visualization
-
----
-
-## Future Work
-
-Potential improvements include:
-
-- Longer simulations to allow clearer lipid phase separation
-- Time-resolved radial distribution function analysis
-- Automated identification of liquid-ordered membrane regions
-- Visualization coloured by lipid species instead of bead type
-- Comparison across different membrane compositions
-
----
-
 ## Repository Structure
 
 ```text
@@ -215,6 +188,17 @@ Potential improvements include:
 ├── LICENSE
 └── README.md
 ```
+---
+
+## Future Work
+
+Potential improvements include:
+
+- Longer simulations to allow clearer lipid phase separation
+- Time-resolved radial distribution function analysis
+- Automated identification of liquid-ordered membrane regions
+- Visualization coloured by lipid species instead of bead type
+- Comparison across different membrane compositions
 
 ---
 
