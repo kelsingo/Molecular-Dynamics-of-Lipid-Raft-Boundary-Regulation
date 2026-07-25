@@ -1,5 +1,4 @@
 # Molecular Simulations of Lipid Microdomains for the Structural Preference of PIP2 Lipid
-_This is part of IS315 - Introduction to Modecular Simulation_
 
 ## Overview
 
@@ -9,7 +8,7 @@ Lipid rafts are cholesterol- and saturated lipid-rich membrane microdomains that
 
 Using a simplified asymmetric lipid bilayer model, this project analyzes interactions between PIP₂ and surrounding membrane lipids through quantitative molecular dynamics analyses, including **Potential Energy (PE)**, **Radial Distribution Functions (RDF)**, and **Mean Squared Displacement (MSD)**.
 
-> **Course Project:** Computational Biophysics / Molecular Dynamics Simulation
+> **Course Project:** Introduction to Molecular Simulation
 
 ---
 
